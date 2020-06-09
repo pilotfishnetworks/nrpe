@@ -1,6 +1,6 @@
 # docker-nrpe
 
-This is the nagios agent wrapped as a docker image. Based on mikenowak/nrpe image.
+This is the nagios agent wrapped as a docker image. Based on [mikenowak/nrpe](https://github.com/mikenowak/docker-nrpe) image.
 
 
 ## Run

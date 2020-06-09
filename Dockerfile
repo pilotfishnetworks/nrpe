@@ -5,7 +5,7 @@ RUN apk update \
    && pip3 install requests requests_unixsocket docker hurry.filesize  
 
 COPY scripts /
-
+COPY plugins /usr/lib/nagios/plugins
 RUN chmod  +x /*.sh
 
 EXPOSE 5666
