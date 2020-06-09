@@ -1,5 +1,5 @@
 #!/bin/sh
-
+#:/usr/lib/nagios/plugins/check_time_skew $ARG1$
 # Check for clock skew on hosts not running ntpd
 
 # v1.0 (C) 2008 Stuart Teasdale <Stuart.Teasdale@opsview.com>

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+#:/usr/lib/nagios/plugins/user/check_swarm $ARG1$
 import argparse
 import json
 import logging
