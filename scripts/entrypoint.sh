@@ -36,7 +36,7 @@ for plugin in $PLUGIN_FILES
 
 do 
     echo $(basename $plugin) loaded
-    echo -e "command[$(basename $plugin)]=$plugin \$ARG\$" >> $CONFIG_FILE
+    echo -e "command[$(basename $plugin)]=$plugin \$ARG1\$" >> $CONFIG_FILE
 done
 
 echo "> Add user $NRPE_USER to sudoers "
